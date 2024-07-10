@@ -23,6 +23,13 @@ public class weeksMain {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Shush");
 		new weeksMain();
+
+		for (String arg : args) {
+			if ("exit".equals(arg)) {
+				System.exit(0); // Exit the application gracefully
+        	}	
+		}
 	}
 }

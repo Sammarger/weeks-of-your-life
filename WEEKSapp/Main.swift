@@ -12,7 +12,7 @@ class WeeksMain {
     init() {
         view = GUIView() // Assuming WeeksGUIView conforms to View
         controller = WeeksController() // Assuming WeeksController conforms to Controller
-        model = WeekssModel() // Assuming WeeksModel conforms to Model
+        model = WeeksModel() // Assuming WeeksModel conforms to Model
 
         model.initialise(width: 5, height: 11, view: view, controller: controller)
         controller.initialise(view: view, model: model)
